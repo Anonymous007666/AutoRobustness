@@ -1,14 +1,26 @@
 ---
 layout: default
 ---
+# Abstract
+Textual adversarial attacks can explore models' weaknesses by adding semantic-preserved but misleading perturbations to the inputs.
+The long-lasting adversarial attack-and-defense competition in Natural Language Processing (NLP) focuses on algorithm innovation, providing valuable techniques for automatic robustness evaluation. 
+However, directly inheriting the previous practice may result in incomprehensive robustness evaluation, impractical evaluation settings, and invalid adversarial samples.
+In this paper, we motivate to set up the first unified automatic robustness evaluation framework, shifting towards model-centric evaluation to further exploit the advantages of adversarial attacks.
+To approach the solutions to the above challenges systematically, we first determine robustness evaluation dimensions based on model capabilities and specify the reasonable algorithm to generate adversarial samples for each dimension.
+Then we establish the evaluation protocol, including evaluation settings and metrics, under realistic demands. 
+Finally, we use the perturbation degree of adversarial samples to control the sample validity.
+We implement and release a toolkit \textbf{RobTest} that realizes our automatic robustness evaluation framework.
+In our experiments, we conduct a robustness evaluation of RoBERTa models to demonstrate the effectiveness of our evaluation framework, and further show the rationality of each component in the framework.
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+
+
+<!-- [Link to another page](./another-page.html). -->
+
+
+
 
 # Header 1
 
