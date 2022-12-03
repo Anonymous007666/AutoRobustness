@@ -12,8 +12,7 @@ Finally, we use the perturbation degree of adversarial samples to control the sa
 We implement and release a toolkit \textbf{RobTest} that realizes our automatic robustness evaluation framework.
 In our experiments, we conduct a robustness evaluation of RoBERTa models to demonstrate the effectiveness of our evaluation framework, and further show the rationality of each component in the framework.
 
-
-
+![Current dilemma](./hello_figure_2.pdf)
 
 
 
